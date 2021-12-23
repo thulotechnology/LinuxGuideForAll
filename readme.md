@@ -110,3 +110,8 @@ id `username` | Display user and group information.
 - /etc/passwd => to get user lists.
 - /etc/group => to get groups details.
 - /etc/shadow => to get hash password.
+
+## Set Timezone to Any Country
+- timedatectl list-timezones : To view all available timezone
+- timedatectl set-timezone Asia/Katmandu: To set timezone to Asia/Kathmandu 
+- date : View Current System Datetime
